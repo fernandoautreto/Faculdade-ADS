@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fernando">
+    <meta name="description" content="">
+    <title>Exercício de Media</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+        body{
+            background: lightgrey;
+        }
+
+        /*criando barra de navegação*/
+        ul {
+            list-style-type: none;/*Vai tirar todas as marcações de lista*/
+            /*position: fixed; para esse exercicio ficar igual a da professora, tive que tira positon */
+            width: 25%;
+            float: left;  
+            margin-right: 20px;
+           
+        }
+      
+        /*estilizando a barra de menu*/
+        li a {
+            color: black;
+            padding: 14px 16px;
+            text-decoration: none;/*vai tirar toda a marcação de que vai foi clicado*/
+            text-align: center;
+            display: block; /*aqui que vai dar uma cara mais organizada no menu*/
+            border: 1px solid black;
+            margin-bottom: 5px;
+            background-color: lightskyblue;
+            
+        }
+
+        li a:hover {
+            background-color: blueviolet;
+            color: white;
+        }
+
+        article { 
+            text-align:justify;
+        }
+
+        @media screen and (max-width:600px){
+            ul {
+                float: none;
+                display: inline-block;
+                width: 100%;
+                margin: 0px;
+            }
+        article {
+            padding:0px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+        
+    <ul>
+        <li><a href="https://fatecpp.edu.br/" title="Fatec Presidente Prudente" title="Fatec" rel="external" target="_blank">Fatec Presidente Prudente</a></li>
+        <li><a href="https://www.youtube.com/" title="Youtube" rel="external" target="_blank">Youtube</a></li>
+        <li><a href="https://www.uol.com.br/" title="UOL" rel="external" target="_blank">UOL</a></li>
+        <li><a href="https://www.bing.com/search?form=NTPCHB&q=Bing+AI&showconv=1" title="bing" rel="external" target="_blank">Microsoft Bing</a></li>
+        <li><a href="https://www.google.com/" title="Google" rel="external" target="_blank">Google</a></li>
+    </ul>
+
+    
+    <article>
+        <h1>Lorem ipsun dolor</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet sem vitae lorem pellentesque
+            aliquet. Sed sit
+            amet semper nisl, a facilisis neque. Donec aliquet, mi in luctus semper, risus ipsum faucibus ligula.</p>
+        <p>Praesent at convallis erat, nec mollis est. Sed at massa non tortor ornare lacinia. Nulla facilisi. Sed non
+            diam eu diam
+            interdum dapibus non id metus.</p>
+        <p>Curabitur ultricies, mauris ut auctor luctus, arcu erat varius erat, in iaculis dolor magna in sem. Maecenas
+            non metus
+            ac sapien molestie pulvinar. Nulla quis lorem ut libero malesuada feugiat.</p>
+        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet sem vitae lorem pellentesque
+        aliquet. Sed sit
+        amet semper nisl, a facilisis neque. Donec aliquet, mi in luctus semper, risus ipsum faucibus ligula.</p>
+        <p>Praesent at convallis erat, nec mollis est. Sed at massa non tortor ornare lacinia Nulla facilisi. Sed non diam eu diam interdum dapibus non id metus.</p>
+        <p>Curabitur ultricies, mauris ut auctor luctus, arcu erat varius erat, in iaculis dolor magna in sem. Maecenas non metus ac sapien molestie pulvinar. Nulla quis lorem ut libero malesuada feugiat.</p>
+        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet sem vitae lorem pellentesque
+            aliquet. Sed sit
+            amet semper nisl, a facilisis neque. Donec aliquet, mi in luctus semper, risus ipsum faucibus ligula.</p>
+        <p>Praesent at convallis erat, nec mollis est. Sed at massa non tortor ornare lacinia. Nulla facilisi. Sed non
+            diam eu diam
+            interdum dapibus non id metus.</p>
+        <p>Curabitur ultricies, mauris ut auctor luctus, arcu erat varius erat, in iaculis dolor magna in sem. Maecenas
+            non metus
+            ac sapien molestie pulvinar. Nulla quis lorem ut libero malesuada feugiat.</p>
+        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur
+            arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet sem vitae lorem pellentesque
+            aliquet. Sed sit
+            amet semper nisl, a facilisis neque. Donec aliquet, mi in luctus semper, risus ipsum faucibus ligula.</p>
+        <p>Praesent at convallis erat, nec mollis est. Sed at massa non tortor ornare lacinia Nulla facilisi. Sed non diam eu
+            diam interdum dapibus non id metus.</p>
+        <p>Curabitur ultricies, mauris ut auctor luctus, arcu erat varius erat, in iaculis dolor magna in sem. Maecenas non
+            metus ac sapien molestie pulvinar. Nulla quis lorem ut libero malesuada feugiat.</p>
+        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur
+            arcu erat, accumsan id imperdiet et, porttitor at sem Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+    </article>
+</body>
+
+</html>

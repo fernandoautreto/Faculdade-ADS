@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: blue;
+}
+
+.estilo1 {
+    background-color: yellow;
+}
+
+#numero{
+    height: 100em;
+}

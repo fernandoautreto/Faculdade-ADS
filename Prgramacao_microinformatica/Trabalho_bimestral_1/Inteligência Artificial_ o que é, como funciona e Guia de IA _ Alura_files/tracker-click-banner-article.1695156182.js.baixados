@@ -1,0 +1,1 @@
+(()=>{let article=document.querySelector("article.cosmos");const banners=document.querySelectorAll(".cosmos-banner-image");if(banners.length<=0)return;banners.forEach((item)=>{item.onclick=()=>{let dataLayerAlura=window.dataLayerAlura||[];dataLayerAlura.push({event:"click_banner_article",name:article.dataset.ga4ArticleName,category:"Artigos Alura",})}})})()

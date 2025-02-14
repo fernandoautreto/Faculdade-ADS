@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Z-Index</title>
+    <style>
+        .geral{
+            position:absolute;
+            width:300px;
+            height:300px;
+        }
+
+        #cubo1{
+            background:blue;
+            left:0;
+            top:0;
+            z-index:3;
+        }
+
+        #cubo2{
+            background:pink;
+            left:0px;
+            top:400px;
+            z-index:2;
+        }
+
+        #cubo3{
+            background: yellow;
+            left: 00px;
+            top: 250px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="cubo1" class="geral">
+        cubo 1
+    </div>
+
+    <div id="cubo2" class="geral">
+        cubo 2
+    </div>
+
+    <div id="cubo3" class="geral">
+        cubo 3
+    </div>
+
+
+</body>
+</html>

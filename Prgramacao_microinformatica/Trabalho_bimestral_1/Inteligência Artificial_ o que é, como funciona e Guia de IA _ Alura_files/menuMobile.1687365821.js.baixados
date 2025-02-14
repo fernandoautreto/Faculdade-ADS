@@ -1,0 +1,5 @@
+window.addEventListener('load',function(){var allCoursesDiv=document.querySelector('.all-courses');var coursesListDiv=document.querySelector('.header__nav--courses-list');function addDisplayCoursesClass(){coursesListDiv.classList.add('display-courses')}
+function removeDisplayCoursesClass(){coursesListDiv.classList.remove('display-courses')}
+function toggleDisplayCoursesClass(){coursesListDiv.classList.toggle('display-courses')}
+function handleClickOutside(event){if(!coursesListDiv.contains(event.target)&&!allCoursesDiv.contains(event.target)){removeDisplayCoursesClass();document.removeEventListener('click',handleClickOutside)}}
+if(!allCoursesDiv)return;allCoursesDiv.addEventListener('click',function(event){event.stopPropagation();toggleDisplayCoursesClass();document.addEventListener('click',handleClickOutside)})})
