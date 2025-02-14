@@ -1,0 +1,15 @@
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\bin\Debug\net8.0\exerc32.exe
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\bin\Debug\net8.0\exerc32.deps.json
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\bin\Debug\net8.0\exerc32.runtimeconfig.json
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\bin\Debug\net8.0\exerc32.dll
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\bin\Debug\net8.0\exerc32.pdb
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\exerc32.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\exerc32.AssemblyInfoInputs.cache
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\exerc32.AssemblyInfo.cs
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\exerc32.csproj.CoreCompileInputs.cache
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\exerc32.sourcelink.json
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\exerc32.dll
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\refint\exerc32.dll
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\exerc32.pdb
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\exerc32.genruntimeconfig.cache
+D:\Meus Documentos\Documentos\Fernando\VSCode\Faculdade\Estututra_de_dados\Faculdade---Estrutura-de-Dados-C-\Aulas\ex32\obj\Debug\net8.0\ref\exerc32.dll
