@@ -12,7 +12,7 @@
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         try {
-            //(floatval)tranforma um str em numero|(str_replace)vai fazer que mude a , para . se for necessário
+            //(str_replace)vai fazer que mude a , para . se for necessário
             $capital = str_replace(',', '.', $_POST['capital']);
             $periodo = str_replace(',', '.', $_POST['periodo']);
             $juros = str_replace(',', '.', $_POST['juros']);
