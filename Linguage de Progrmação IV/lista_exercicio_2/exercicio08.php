@@ -12,7 +12,7 @@
 <body>
     <h1>Área do retângulo</h1>
 
-    <form method="post" action="exercicio8Resposta.php">
+    <form method="post" action="exercicio08Resposta.php">
 
         <div class="mb-3">
             <label for="h" class="form-label">Informe a altura do retângulo (cm): </label>

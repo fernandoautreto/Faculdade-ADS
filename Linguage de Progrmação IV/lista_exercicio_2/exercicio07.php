@@ -12,7 +12,7 @@
 <body>
     <h1>Conversor de °C para °F</h1>
 
-    <form method="post" action="exercicio7Resposta.php">
+    <form method="post" action="exercicio07Resposta.php">
 
         <div class="mb-3">
             <label for="tempF" class="form-label">Informe a temperatura em Fahrenheit (°F)</label>

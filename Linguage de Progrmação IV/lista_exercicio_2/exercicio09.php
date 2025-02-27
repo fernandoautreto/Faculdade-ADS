@@ -12,7 +12,7 @@
 <body>
     <h1>Área do círculo</h1>
 
-    <form method="post" action="exercicio9Resposta.php">
+    <form method="post" action="exercicio09Resposta.php">
 
         <div class="mb-3">
             <label for="r" class="form-label">Informe o raio(r) do cículo: </label>

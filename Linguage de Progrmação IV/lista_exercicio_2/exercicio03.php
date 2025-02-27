@@ -12,7 +12,7 @@
 <body>
     <h1>Multiplicação</h1>
 
-    <form method="post" action="exercicio3Resposta.php">
+    <form method="post" action="exercicio03Resposta.php">
 
         <div class="mb-3">
             <label for="valor1" class="form-label">Informe o primeiro valor</label>

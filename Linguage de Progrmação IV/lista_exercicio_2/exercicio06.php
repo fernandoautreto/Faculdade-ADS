@@ -12,7 +12,7 @@
 <body>
     <h1>Conversor de °C para °F</h1>
 
-    <form method="post" action="exercicio6Resposta.php">
+    <form method="post" action="exercicio06Resposta.php">
 
         <div class="mb-3">
             <label for="tempC" class="form-label">Informe a temperatura em Graus Celsius (°C)</label>

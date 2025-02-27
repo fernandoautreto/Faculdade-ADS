@@ -12,7 +12,7 @@
 <body>
     <h1>Divisão</h1>
 
-    <form method="post" action="exercicio4Resposta.php">
+    <form method="post" action="exercicio04Resposta.php">
 
         <div class="mb-3">
             <label for="valor1" class="form-label">Informe o primeiro valor</label>
