@@ -16,13 +16,15 @@
             $i = 1;
             if ($numero < 1)
                 echo "Entrada invalida!!";
-            while ($i <= $numero) {
-                if ($i == 1) {
-                    echo "$i";
-                    $i++;
-                } else
-                    echo ", $i";
-                $i++;
+            else {
+                do {
+                    if ($i == 1) {
+                        echo "$i";
+                        $i++;
+                    } else
+                        echo ", $i";
+                        $i++;
+                } while ($i <= $numero);
             }
 
         } catch (Exception $e) {
