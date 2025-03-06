@@ -16,12 +16,12 @@
               
         <div class="mb-3">
             <label for="n1" class="form-label">Informe um número: </label>
-            <input type="numb" id="n1" name="n1" class="form-control"  required="">
+            <input type="number" id="n1" name="n1" class="form-control"  required="">
         </div>  
         
          <div class="mb-3">
             <label for="n2" class="form-label">Informe um numero: </label>
-            <input type="numb" id="n2" name="n2" class="form-control"  required="">
+            <input type="number" id="n2" name="n2" class="form-control"  required="">
 
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>    

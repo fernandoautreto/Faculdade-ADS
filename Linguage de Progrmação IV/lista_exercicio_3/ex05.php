@@ -32,7 +32,7 @@
             
         <div class="mb-3">
             <label for="mes" class="form-label">Informe um valor: </label>
-            <input type="numb" id="mes" name="mes" class="form-control" required="">
+            <input type="number" id="mes" name="mes" class="form-control" required="">
         </div>  
         
         <button type="submit" class="btn btn-primary">Enviar</button>

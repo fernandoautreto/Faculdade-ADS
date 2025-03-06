@@ -16,32 +16,32 @@
               
         <div class="mb-3">
             <label for="n1" class="form-label">Informe um número: </label>
-            <input type="numb" id="n1" name="n1" class="form-control"  required="">
+            <input type="number" id="n1" name="n1" class="form-control"  required="">
         </div>  
         
          <div class="mb-3">
             <label for="n2" class="form-label">Informe um numero: </label>
-            <input type="numb" id="n2" name="n2" class="form-control"  required="">
+            <input type="number" id="n2" name="n2" class="form-control"  required="">
         </div>
          <div class="mb-3">
             <label for="n3" class="form-label">Informe um numero: </label>
-            <input type="numb" id="n3" name="n3" class="form-control"  required="">
+            <input type="number" id="n3" name="n3" class="form-control"  required="">
         </div>
          <div class="mb-3">
             <label for="n4" class="form-label">Informe um numero: </label>
-            <input type="numb" id="n4" name="n4" class="form-control"  required="">
+            <input type="number" id="n4" name="n4" class="form-control"  required="">
         </div>
          <div class="mb-3">
             <label for="n5" class="form-label">Informe um numero: </label>
-            <input type="numb" id="n5" name="n5" class="form-control"  required="">
+            <input type="number" id="n5" name="n5" class="form-control"  required="">
         </div>
          <div class="mb-3">
             <label for="n6" class="form-label">Informe um numero: </label>
-            <input type="numb" id="n6" name="n6" class="form-control"  required="">
+            <input type="number" id="n6" name="n6" class="form-control"  required="">
         </div>
          <div class="mb-3">
             <label for="n7" class="form-label">Informe um numero: </label>
-            <input type="numb" id="n7" name="n7" class="form-control"  required="">
+            <input type="number" id="n7" name="n7" class="form-control"  required="">
         </div>
         
         <button type="submit" class="btn btn-primary">Enviar</button>

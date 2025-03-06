@@ -13,7 +13,7 @@
 
         <div class="mb-3">
             <label for="numero" class="form-label">Informe um valor: </label>
-            <input type="numb" id="numero" name="numero" class="form-control" required="">
+            <input type="number" id="numero" name="numero" class="form-control" required="">
         </div>  
         
         <button type="submit" class="btn btn-primary">Enviar</button>
