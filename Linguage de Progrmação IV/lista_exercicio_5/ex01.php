@@ -18,7 +18,7 @@
             </div>
 
             <div class="mb-3">
-                <label for="tem[]" class="form-label">Informe o telefone: </label>
+                <label for="tel[]" class="form-label">Informe o telefone: </label>
                 <input type="number" name="tel[]" placeholder="Telefone" />
             </div>
         <?php endfor; ?>
