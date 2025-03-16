@@ -18,30 +18,33 @@ declare(strict_types=1); //obriga a tipagem da qualquer método ou atributo
 
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
         try {
-            $notas = array();
+            $produtos = array();
+            $valorArray = array();
             $nomes = $_POST['nome'];
-            $n1 = $_POST['n1'];
-            $n2 = $_POST['n2'];
-            $n3= $_POST['n3'];
-
+            $cod = $_POST['cod'];
+            $valor = $_POST['valor'];
 
             for ($i = 0; $i < 5; $i++) {
                 $nome = $nomes[$i];
-                $nota1 = $n1[$i];
-                $nota2 = $n2[$i];
-                $nota3 = $n3[$i];
-                $media = ($nota1 + $nota2 + $nota3)/3;
-                $notas[$nome] = $media;
+                $codigo = $cod[$i];
+                $preco = floatval($valor[$i]);
+
+                // Aplica o desconto de 10% se o preço for maior que R$100
+                if ($preco >= 100) {
+                    $preco += $preco * 0.10;  // adiciona 10% ao preço
+                }
+                $valorArray = ['nome' => $nome, 'preco' => $preco];
+                $produtos[$codigo] = $valorArray;
             }
 
-            // Ordena os notas decrescente (valor do array)
-            arsort($notas);
+            uasort($produtos, function ($a, $b) {
+                return strcmp($a['nome'], $b['nome']);
+            });
 
-
-            echo "<h2>Lista de Alunos</h2>";
+            echo "<h2>Lista de Produtos</h2>";
             echo "<ul>";
-            foreach ($notas as $nome => $media) {
-                echo "<li><strong>$nome</strong>: $media</li>";
+            foreach ($produtos as $codigo => $valorArray) {
+                echo "<li><strong>" . $valorArray['nome'] . "</strong>; Código: $codigo; Preço: R$ " . number_format($valorArray['preco'], 2, ',', '.') . "</li>";
             }
             echo "</ul>";
 
